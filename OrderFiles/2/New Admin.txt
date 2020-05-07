@@ -1,0 +1,370 @@
+﻿https://codepen.io/desandro/pen/OPwZbw
+https://css-tricks.com/creating-responsive-touch-friendly-carousels-with-flickity/
+
+sans-serif
+monospace
+"Helvetica Neue",Helvetica,Arial,sans-serif
+tezol
+
+
+
+Category :   ----------------> No Confirm
+Categories.php *
+Category.php *
+_____________________________________
+Color :   ----------------> No Confirm
+Color.php *
+Colors.php *   ----------------> edit & Delete Btn
+UpdateColor.php *
+_____________________________________
+ColorList :
+ColorList.php *
+ColorLists.php *
+Confirm.php *
+operateColor.php *
+RefreshColor.php *
+_____________________________________
+Comment :
+AgreeComment.php * 
+CommentReplyEmail.php *
+Comments.php *
+DeleteComment.php *
+DissAgreeComment.php * 
+InsertComment.php *    ---------------->  location
+LoadMoreC.php *
+operateComment.php *
+_____________________________________
+Customer :   
+AjaxCustomerInfo.php *
+AjaxEmailModal.php *
+AjaxSendSMS.php *
+Confirm.php * ----------------> No Del Work
+Customer.php *
+CustomerEmail.php *  ----------------> Link
+operateCustomer.php *
+SendCustomerEmail.php *
+_____________________________________
+Discount :
+Discount.php *
+Discounts.php *
+operateDiscount.php *
+SelectTopSales.php *
+SetSpecialOffers.php *
+_____________________________________
+Factor : *
+AjaxFactorProducts.php *
+AjaxFactorProducts2.php *
+DeleteFactor.php *
+DeleteFactorProduct.php *
+DeleteFactorProduct2.php *
+Factores.php *
+FactorProductInProgress.php *
+FactorProducts.php *
+FactorProductsTable.php *
+FactorSent.php * ------------------------------------------------------------->  header
+LoadMoreF.php *
+UpdateFactorP.php * ------------------------------------------------------------->  header
+_____________________________________
+FactorProduct :
+AjaxFactorProducts.php *
+AjaxFactorProducts2.php *
+AjaxSendCustomEmail.php *
+BillInfo.php *
+BillPayed.php *
+FactorProductInProgress.php *
+FactorProducts.php *
+FactorProductsTable.php *
+
+_____________________________________
+Feed :
+Feed.php *
+FeedEmail.php *  ----------------> Link
+Feeds.php *
+operateFeed.php *
+SendFeedEmail.php *
+_____________________________________
+Group :
+AjaxGroupChecks.php *
+AjaxGroupChecks2.php *
+Confirm.php *
+Group.php *
+Groups.php *  ----------------> Link  یکپارچه سازی
+_____________________________________
+Guarantee :
+AjaxAddGuarantee.php *
+AjaxDeleteGuarantee.php *
+DeleteGuarantee.php * ------------------------------------------------------------->  header
+Guarantee.php *
+Guarantees.php *
+InsertGuarantee.php *  ------------------------------------------------------------->  header
+UpdateGuarantee.php * ------------------------------------------------------------->  header
+_____________________________________
+GuaranteeList :
+Confirm.php *
+GuaranteeList.php *
+GuaranteeLists.php *
+operateGuaranteeList.php *
+RefreshGuarantee.php *
+_____________________________________
+LinkBox :
+LinkBox.php *
+LinkBoxes.php *
+LinkContent.php *
+operateLinkBox.php *
+UpdateLinkContent.php *
+_____________________________________
+LinkboxTitle :
+LinkboxTitle.php *
+LinkboxTitles.php *
+operateLinkBoxTitle.php *
+_____________________________________
+Logo :
+Logo.php *
+Logos.php *
+operateLogo.php 
+_____________________________________
+Mailer :
+SendCustomerEmail.php *
+SendFeedEmail.php *
+_____________________________________
+MainMenu :
+AjaxMoveMenu.php *
+AjaxSendCustomEmail.php *
+MainMenu.php *
+MainMenus.php * ----------------> SelectMenus
+operateMainMenu.php *
+RefreshMainMenu.php *
+SwitchMainMenu.php *
+_____________________________________
+Menu : ----------------> Error - Not Found Ajax
+AjaxAddMenu.php *
+AjaxDeleteMenu.php *
+DeleteMenu.php * ------------------------------------------------------------->  header
+InsertMenu.php *  ------------------------------------------------------------->  header
+SetMenuAndProtocols.php *  ------------------------------------------------------------->  header
+UpdateMenu.php * ------------------------------------------------------------->  header
+_____________________________________
+MenuTitle :
+MenuTitle.php *
+MenuTitles.php *
+RefreshTitles.php *
+_____________________________________
+Module : ----------------> What is This color List
+_____________________________________
+News :
+ajaxNewsSearch.php * ----------------> top3 , Error
+News.php * ----------------> header : discount
+NewsForm.php *
+operateNews.php *
+_____________________________________
+Opinion :
+AgreeOpinion.php *
+DeleteOpinion.php *
+DissAgreeOpinion.php *
+LoadMoreO.php *
+Opinions.php *
+_____________________________________
+PaymentMethod :
+DeletePaymentMethod.php *
+InsertPaymentMethod.php *
+PaymentMethod.php *
+PaymentMethods.php *
+SwitchPaymentMethod.php *
+UpdatePaymentMethod.php *
+_____________________________________
+Permission :
+operatePermission.php *
+Permission.php *
+Permissions.php *
+_____________________________________
+Price :
+ChangePrices.php *
+ChangePrices2.php *
+LoadMorePrices.php *
+operatePrice.php * ------------------------------------------------------------->  header
+PrePriceIncrease.php *
+Price.php * ----------------> UpdatePrice.php  in root
+PriceIncrease.php *
+PriceIncrease2.php *
+Prices.php *  ----------------> delete , edit
+_____________________________________
+Product :
+ajaxSearch.php *
+AjaxUpdateEntry.php *
+DeleteProduct.php *
+In-tableUpdate.php *
+InsertCompeleteProduct.php *
+InsertProduct.php *
+PreInsertProduct.php * ------------------------------------------------------------->  header
+Product.php *
+ProductInfo.php *  ----------------> buttons
+ProductInsertingPrepration.php * ------------------------------------------------------------->  header
+Products.php *
+_____________________________________
+ProductAndProperty :
+AjaxDeleteProductAndProperty.php *
+AjaxProductAndProperties.php *               Theme
+AjaxProductAndProperties2.php *              Metro
+AjaxProductAndPropertiesInsert.php *
+AjaxUpdatePAP.php *
+Modules/ProductAndProperty *                 theme
+DeleteProductAndProperty.php *  ------------------------------------------------------------->  header
+DeleteProductAndPropertyIFrame.php * ------------------------------------------------------------->  header
+InsertProductAndProperty.php *  ------------------------------------------------------------->  header
+ProductAndProperties.php * ---------------->  delte
+ProductAndProperty.php *
+UpdateProductAndProperty.php * ------------------------------------------------------------->  header
+_____________________________________
+ProductColor :
+AjaxAddColor.php *
+AjaxDeleteColor.php *
+DeleteProductColorIFrame.php * ------------------------------------------------------------->  header
+operateProductColor.php * ------------------------------------------------------------->  header
+ProductColor.php *
+ProductColors.php * ----------------> edit , delte
+ProductColorsIFrame.php * ----------------> edit , delte
+_____________________________________
+ProductCoupon :
+operateProductCoupon.php * ------------------------------------------------------------->  header
+ProductCoupon.php *
+ProductCoupons.php *
+_____________________________________
+ProductProperty :
+AdvancedSearch.php *
+AjaxInsertPP.php *
+AjaxInsertProductProperty.php *
+AjaxProductProperties.php *
+AjaxProductProperties2.php *
+AjaxSearchSelection.php *
+operateProductProperty.php *
+ProductProperties.php *
+ProductProperty.php *
+_____________________________________
+Protocol :
+operateProtocol.php *
+Protocol.php *
+Protocols.php *
+_____________________________________
+ProtocolList :
+operateProtocolList.php *
+ProtocolList.php *
+ProtocolLists.php *
+_____________________________________
+PurchaseBasket :
+PurchaseBaskets.php *
+_____________________________________
+Role :
+Confirm.php *
+DeleteRole.php *
+InsertRole.php *
+Role.php *
+Roles.php *
+UpdateRole.php *
+_____________________________________
+Service :
+operateService.php *
+Service.php *
+Services.php *
+_____________________________________
+Setting :  ----------------> Select Menu
+ApplySettings.php *
+Settings.php *
+_____________________________________
+Shipping :
+DeleteShipping.php *
+InsertShipping.php *
+operateShipping.php *
+Shipping.php *
+Shippings.php *
+UpdateShipping.php *
+_____________________________________
+ShippingMethod :
+operateShippingMethod.php *
+ShippingMethod.php *
+ShippingMethods.php *
+_____________________________________
+Slide :
+operateSlide.php *
+Slide.php *
+Slides.php *
+_____________________________________
+Stat :
+AjaxStatsLoad.php *
+AllStats.php *
+DeleteStat.php * ------------------------------------------------------------->  header
+Stat.php *
+Stats.php * -----------------------------> edit & Delte
+UpdateStat.php * ------------------------------------------------------------->  header
+_____________________________________
+SubGroup :
+AjaxSubGroupChecks.php *
+AjaxSubGroupChecks2.php *
+Confirm.php *
+operateSubGroup.php *
+operateSubGroup.php *
+RefreshSubgroups2.php *
+RefreshSubgroups3.php *
+RefreshSubgroups4.php *
+RefreshSubgroups5.php *
+SubGroup.php *
+SubGroups.php *
+_____________________________________
+SubMenu :
+operateSubMenu.php *
+RefreshSubmenus.php *
+RefreshSubmenus2.php *
+SubMenu.php *
+SubMenus.php *
+SwitchSubMenu.php *
+_____________________________________
+SupperGroup :
+AjaxSupperGroupChecks.php *
+AjaxSupperGroupChecks2.php *
+Confirm.php *
+operateSupperGroup.php *
+RefreshSuppergroups.php *
+RefreshSuppergroups2.php *
+RefreshSuppergroups3.php *
+RefreshSuppergroups4.php *
+SupperGroup.php *
+SupperGroups.php *
+_____________________________________
+SupperMenu :
+operateSupperMenu.php *
+RefreshSuppermenus.php *
+SupperMenu.php *
+SupperMenus.php * ----------------> Select Menu
+_____________________________________
+Thumb :
+operateThumb.php *
+Thumb.php *
+Thumbs.php *
+_____________________________________
+UN :
+AjaxImageDelete.php *
+AjaxMetaStatus.php *
+AjaxMetaStatus2.php *
+ajaxPager.php *
+AjaxSyncMenu.php *
+LoadSupAnSubMenu.php *
+MenuAndGroupSynchronize.php *  ------------------------------------------------------------->  header Select Menu
+multiSelect.php *
+multiSelect.php *
+RefreshImage.php *
+RefreshImageThumbs.php *
+SelectMenus.php *----------------> Select Menu     یکپارچه سازی
+SHInsertTheCity.php *
+_____________________________________
+User : ----------------> del
+Confirm.php *
+operateUser.php *
+User.php *
+Users.php *
+_____________________________________
+UserCoupon : ----------------> new
+operateUserCoupon.php *
+UserCoupon.php *
+UserCoupons.php *
+_____________________________________
+
+_____________________________________

@@ -1,0 +1,188 @@
+/*
+* 	Owl Carousel Owl Demo Theme
+*	v1.3.3
+    http://owlgraphic.com/owlcarousel/demos/randomOrder.html
+*/
+
+.owl-theme .owl-controls {
+    margin-top: 10px;
+    text-align: center;
+}
+
+    /* Styling Next and Prev buttons */
+
+    .owl-theme .owl-controls .owl-buttons div {
+        color: #999;
+        display: inline-block;
+        zoom: 1;
+        *display: inline; /* IE7 life-saver */
+        margin: 5px;
+        padding: 8px 10px;
+        font: 800 26px arial,verdana,tahoma;
+        /*-webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background: #869791;
+        color: #FFF;
+        font-size: 12px;
+        padding: 3px 10px;
+        */
+        background: inherit;
+        filter: Alpha(Opacity=50); /* IE7 fix*/
+        opacity: 0.5;
+    }
+
+
+
+    /* Clickable class fix problem with hover on touch devices */
+    /* Use it for non-touch hover action */
+    .owl-theme .owl-controls.clickable .owl-buttons div:hover {
+        filter: Alpha(Opacity=100); /*IE7 fix*/
+        opacity: 1;
+        text-decoration: none;
+        color: #0094ff;
+    }
+
+    /* Styling Pagination*/
+
+    .owl-theme .owl-controls .owl-page {
+        display: inline-block;
+        zoom: 1;
+        *display: inline; /*IE7 life-saver */
+    }
+
+        .owl-theme .owl-controls .owl-page span {
+            display: block;
+            width: 12px;
+            height: 12px;
+            margin: 5px 7px;
+            filter: Alpha(Opacity=50); /*IE7 fix*/
+            opacity: 0.5;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+            background: #869791;
+        }
+
+        .owl-theme .owl-controls .owl-page.active span,
+        .owl-theme .owl-controls.clickable .owl-page:hover span {
+            filter: Alpha(Opacity=100); /*IE7 fix*/
+            opacity: 1;
+        }
+
+        /* If PaginationNumbers is true */
+
+        .owl-theme .owl-controls .owl-page span.owl-numbers {
+            height: auto;
+            width: auto;
+            color: #FFF;
+            padding: 2px 10px;
+            font-size: 12px;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            border-radius: 30px;
+        }
+
+/* preloading images */
+.owl-item.loading {
+    min-height: 150px;
+    background: url('../Images/Plugins/AjaxLoader.gif') no-repeat center center;
+}
+
+
+/****************************New Features*******************************/
+.wrapper-with-margin {
+    margin: 0px 50px;
+}
+
+.owl-item a {
+    display: block;
+    text-decoration: none;
+}
+
+    .owl-item a div.item {
+        /*background: #42bdc2 !important;*/
+        /*min-height: 100px;*/
+        /*text-align: center;*/
+        /*padding: 0;*/
+        margin: 3px;
+        /*color: white;
+    font-size: 32px;*/
+        border: 1px solid #ddd;
+        background: #fff;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -o-border-radius: 6px;
+        -ms-border-radius: 6px;
+        border-radius: 6px;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        position: relative;
+    }
+
+        .owl-item a div.item:hover {
+            border-color: #09F;
+        }
+
+        .owl-item a div.item div.top {
+            text-align: center;
+            height: 126px;
+        }
+
+            .owl-item a div.item div.top img {
+                display: block;
+                width: 100px;
+                height: 100px;
+                margin: 16px auto 10px;
+                border: 0 none;
+            }
+
+        .owl-item a div.item div.bottom {
+            direction: rtl;
+            height: 65px;
+        }
+
+            .owl-item a div.item div.bottom > h3 {
+                color: #666;
+                margin: 8px 0;
+                font: normal 11px tahoma;
+                text-align: center;
+            }
+
+            .owl-item a div.item div.bottom span.goods-price {
+                display: inline-block;
+                color: #18a065;
+                position: absolute;
+                bottom: 15px;
+                right: 20px;
+            }
+
+            .owl-item a div.item div.bottom span.goods-state {
+                display: inline-block;
+                position: absolute;
+                bottom: 7px;
+                left: 20px;
+            }
+
+                .owl-item a div.item div.bottom span.goods-state img {
+                    border: 0 none;
+                    width: 24px;
+                    height: 24px;
+                }
+
+.owl-theme .owl-controls .owl-buttons div {
+    position: absolute;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+    left: -45px;
+    top: 75px;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next {
+    right: -45px;
+    top: 75px;
+}

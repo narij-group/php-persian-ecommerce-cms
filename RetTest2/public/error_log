@@ -1,0 +1,25 @@
+[30-Aug-2017 03:41:26 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/shop5/public_html/Classes/ProductColor.inc on line 177
+[30-Aug-2017 10:43:34 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/shop5/public_html/Classes/ProductColor.inc on line 177
+[31-Aug-2017 09:59:15 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/shop5/public_html/Classes/ProductColor.inc on line 177
+[31-Aug-2017 10:23:12 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/shop5/public_html/Classes/ProductColor.inc on line 177
+[31-Aug-2017 11:08:34 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/shop5/public_html/Classes/ProductColor.inc on line 177
+[31-Aug-2017 11:23:56 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/shop5/public_html/Classes/ProductColor.inc on line 177
+[31-Aug-2017 13:36:33 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/shop5/public_html/Classes/ProductColor.inc on line 177
+[31-Aug-2017 13:37:19 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/shop5/public_html/Classes/ProductColor.inc on line 177
+[31-Aug-2017 14:19:08 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/shop5/public_html/Classes/ProductColor.inc on line 177
+[31-Aug-2017 14:20:48 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/shop5/public_html/Classes/ProductColor.inc on line 177
+[02-Sep-2017 11:36:24 America/New_York] PHP Catchable fatal error:  Object of class Logo could not be converted to string in /home/shop5/public_html/Classes/Product.inc on line 96
+[02-Sep-2017 11:38:19 America/New_York] PHP Catchable fatal error:  Object of class Logo could not be converted to string in /home/shop5/public_html/Classes/Product.inc on line 96
+[02-Sep-2017 13:32:02 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/shop5/public_html/Classes/ProductColor.inc on line 177
+[03-Sep-2017 03:55:24 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/shop5/public_html/Classes/ProductColor.inc on line 177
+[03-Sep-2017 10:10:12 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/shop5/public_html/Classes/ProductColor.inc on line 177
+[03-Sep-2017 12:30:35 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/shop5/public_html/RetTest2/public/index.php on line 338
+[03-Sep-2017 12:30:41 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/shop5/public_html/RetTest2/public/index.php on line 338
+[03-Sep-2017 12:30:43 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/shop5/public_html/RetTest2/public/index.php on line 338
+[03-Sep-2017 12:30:47 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/shop5/public_html/RetTest2/public/index.php on line 338
+[03-Sep-2017 12:31:22 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/shop5/public_html/RetTest2/public/index.php on line 338
+[03-Sep-2017 12:31:26 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/shop5/public_html/RetTest2/public/index.php on line 338
+[03-Sep-2017 12:31:47 America/New_York] PHP Parse error:  syntax error, unexpected '$response' (T_VARIABLE) in /home/shop5/public_html/RetTest2/public/index.php on line 338
+[03-Sep-2017 15:07:37 America/New_York] PHP Catchable fatal error:  Object of class Logo could not be converted to string in /home/shop5/public_html/Classes/Product.inc on line 106
+[03-Sep-2017 15:07:48 America/New_York] PHP Catchable fatal error:  Object of class Logo could not be converted to string in /home/shop5/public_html/Classes/Product.inc on line 106
+[03-Sep-2017 15:09:42 America/New_York] PHP Catchable fatal error:  Object of class Logo could not be converted to string in /home/shop5/public_html/Classes/Product.inc on line 106

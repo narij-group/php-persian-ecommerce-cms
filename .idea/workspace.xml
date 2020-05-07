@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0a7af2d-b7ca-47e0-9f71-3ca09002080e" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/News.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5542">
+              <caret line="326" column="41" selection-start-line="326" selection-start-column="41" selection-end-line="326" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VerifyPayment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UserProfile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="127" column="40" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
+              <folding>
+                <marker date="1527252644169" expanded="true" signature="8099:8113" ph="..." />
+                <marker date="1527252644169" expanded="true" signature="8269:8283" ph="..." />
+                <marker date="1527252644169" expanded="true" signature="10712:10786" ph="..." />
+                <marker date="1527252644169" expanded="true" signature="10825:10856" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Internal Inserting/RecoveryPass.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/CustomerDataSource.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2397">
+              <caret line="141" column="29" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
+              <folding>
+                <marker date="1511327325721" expanded="true" signature="487:1040" ph="Insert Into customers... " />
+                <marker date="1511327325721" expanded="true" signature="1150:1710" ph="Update custo... " />
+                <marker date="1511327325721" expanded="true" signature="1857:1974" ph="Update custo... " />
+                <marker date="1511327325721" expanded="true" signature="2115:2187" ph="Update custo... " />
+                <marker date="1511327325721" expanded="true" signature="2334:2436" ph="Update custo... " />
+                <marker date="1511327325721" expanded="true" signature="2584:2688" ph="Update custo... " />
+                <marker date="1511327325721" expanded="true" signature="2812:2851" ph="Delete From " />
+                <marker date="1511327325721" expanded="true" signature="4249:4288" ph="Delete From " />
+                <marker date="1511327325721" expanded="true" signature="4408:4449" ph="Select * Fro... customers" />
+                <marker date="1511327325721" expanded="true" signature="5562:5610" ph="Select * Fro... customers" />
+                <marker date="1511327325721" expanded="true" signature="6813:6977" ph="Select * Fro... customers" />
+                <marker date="1511327325721" expanded="true" signature="7230:7284" ph="Select * Fro... customers" />
+                <marker date="1511327325721" expanded="true" signature="7531:7589" ph="Select * Fro... customers" />
+                <marker date="1511327325721" expanded="true" signature="7836:7884" ph="Select * Fro... customers" />
+                <marker date="1511327325721" expanded="true" signature="8153:8267" ph="Select * Fro... customers" />
+                <marker date="1511327325721" expanded="true" signature="9399:9468" ph="Select * Fro... customers" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/OrderDataSource.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2397">
+              <caret line="141" column="26" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
+              <folding>
+                <marker date="1524661122566" expanded="true" signature="516:809" ph="Insert Into orders... " />
+                <marker date="1524661122566" expanded="true" signature="920:1253" ph="Update order... " />
+                <marker date="1524661122566" expanded="true" signature="1347:1382" ph="Delete From " />
+                <marker date="1524661122566" expanded="true" signature="1480:1511" ph="SELECT MIN(O... orders" />
+                <marker date="1524661122566" expanded="true" signature="1722:2290" ph="Select order... orders" />
+                <marker date="1524661122566" expanded="true" signature="3619:4214" ph="Select order... orders" />
+                <marker date="1524661122566" expanded="true" signature="5549:6133" ph="Select order... orders" />
+                <marker date="1524661122566" expanded="true" signature="7412:8005" ph="Select order... orders" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/FactorProductDataSource.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8364">
+              <caret line="483" column="20" selection-start-line="483" selection-start-column="20" selection-end-line="483" selection-end-column="20" />
+              <folding>
+                <marker date="1521279046974" expanded="true" signature="553:1349" ph="Insert Into factorproducts... " />
+                <marker date="1521279046974" expanded="true" signature="1469:2136" ph="Update facto... " />
+                <marker date="1521279046974" expanded="true" signature="2252:2336" ph="Update facto... " />
+                <marker date="1521279046974" expanded="true" signature="2485:2619" ph="Update facto... " />
+                <marker date="1521279046974" expanded="true" signature="2730:2809" ph="Update facto... " />
+                <marker date="1521279046974" expanded="true" signature="2939:3094" ph="Update facto... " />
+                <marker date="1521279046974" expanded="true" signature="3191:3262" ph="Update facto... " />
+                <marker date="1521279046974" expanded="true" signature="3354:3425" ph="Update facto... " />
+                <marker date="1521279046974" expanded="true" signature="3520:3591" ph="Update facto... " />
+                <marker date="1521279046974" expanded="true" signature="3687:3758" ph="Update facto... " />
+                <marker date="1521279046974" expanded="true" signature="3852:3902" ph="Delete From " />
+                <marker date="1521279046974" expanded="true" signature="4028:4158" ph="Select facto... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="4271:4318" ph="Select * fro... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="4653:5759" ph="Select facto... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="7862:9011" ph="Select facto... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="10525:11744" ph="Select facto... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="14192:14322" ph="Select facto... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="14659:14828" ph="Select IFNUL... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="15041:15174" ph="Select IFNUL... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="15401:15575" ph="Select IFNUL... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="15785:16940" ph="Select facto... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="19397:20630" ph="Select facto... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="21790:23004" ph="Select facto... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="24172:25361" ph="Select facto... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="26530:27716" ph="Select facto... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="28880:30120" ph="Select facto... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="32803:33952" ph="Select facto... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="36152:37262" ph="Select facto... factorproducts" />
+                <marker date="1521279046974" expanded="true" signature="39448:39560" ph="Select Statu... factorproducts" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/NewsDataSource.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3485">
+              <caret line="205" column="31" selection-start-line="205" selection-start-column="31" selection-end-line="205" selection-end-column="31" />
+              <folding>
+                <marker date="1509744175630" expanded="true" signature="473:797" ph="Insert Into news... " />
+                <marker date="1509744175630" expanded="true" signature="899:1220" ph="Update news " />
+                <marker date="1509744175630" expanded="true" signature="1314:1347" ph="Delete From " />
+                <marker date="1509744175630" expanded="true" signature="1462:1531" ph="Select * Fro... news" />
+                <marker date="1509744175630" expanded="true" signature="2571:2646" ph="Select * Fro... news" />
+                <marker date="1509744175630" expanded="true" signature="3541:3639" ph="Select * Fro... news" />
+                <marker date="1509744175630" expanded="true" signature="4086:4186" ph="Select * Fro... news" />
+                <marker date="1509744175630" expanded="true" signature="5066:5158" ph="Select * Fro... news" />
+                <marker date="1509744175630" expanded="true" signature="6040:6139" ph="Select * Fro... news" />
+                <marker date="1509744175630" expanded="true" signature="6376:6476" ph="Select * Fro... news" />
+                <marker date="1509744175630" expanded="true" signature="6688:6806" ph="Select NewsI... " />
+                <marker date="1509744175630" expanded="true" signature="7331:7610" ph="Select * Fro... news" />
+                <marker date="1509744175630" expanded="true" signature="8497:8791" ph="Select * Fro... news" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>اتمام</find>
+      <find>btn-box</find>
+      <find>btn-finish</find>
+      <find>quantityModal</find>
+      <find>colorSamples</find>
+      <find>$(&quot;.quantity&quot;).click(function () {</find>
+      <find>#group</find>
+      <find>loader1</find>
+      <find>Widget</find>
+      <find>if (!isset($SupperGroupId)) {</find>
+      <find>aside</find>
+      <find>$gds-&gt;Fill</find>
+      <find>widget</find>
+      <find>AskQuaa</find>
+      <find>GetLastDiscountForOneProduct</find>
+      <find>barrating</find>
+      <find>$logos</find>
+      <find>Fill2</find>
+      <find>class=&quot;Options</find>
+      <find>FillByGroup</find>
+      <find>group</find>
+      <find>search_box</find>
+      <find>search_box_mob</find>
+      <find>brand</find>
+      <find>tid</find>
+      <find>fill2</find>
+      <find>RandomFill</find>
+      <find>تکمیل</find>
+      <find>editcustomer</find>
+      <find>Favorite.php</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>f-btn</replace>
+      <replace>&lt;img src='$p-&gt;Image' alt='' class='img-table' /&gt;</replace>
+      <replace>echo &quot;&lt;/div&gt;&lt;img src='$p-&gt;Image' alt='' class='img-table' /&gt;&lt;/td&gt;&quot;;</replace>
+      <replace>DigitalShopv2</replace>
+      <replace>src='$imgsrc'</replace>
+      <replace>elseif</replace>
+      <replace>b-yekan</replace>
+      <replace>Purchase-success-Alert</replace>
+      <replace>$order</replace>
+      <replace>$panel</replace>
+      <replace>Customer</replace>
+      <replace>$specialoffer == 1</replace>
+      <replace>&quot;man.unknown01@gmail.com&quot;</replace>
+      <replace>property</replace>
+      <replace>propertyname</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ClassesEx/datasource/RoleDataSource.inc" />
+        <option value="$PROJECT_DIR$/Admin/Index.php" />
+        <option value="$PROJECT_DIR$/Admin/Template/menu.php" />
+        <option value="$PROJECT_DIR$/Admin/UpdateRole.php" />
+        <option value="$PROJECT_DIR$/Admin/InsertRole.php" />
+        <option value="$PROJECT_DIR$/Admin/Role.php" />
+        <option value="$PROJECT_DIR$/Admin/RefreshSubgroups3.php" />
+        <option value="$PROJECT_DIR$/Admin/FactorSent.php" />
+        <option value="$PROJECT_DIR$/Admin/SendFeedEmail.php" />
+        <option value="$PROJECT_DIR$/Admin/FeedEmail.php" />
+        <option value="$PROJECT_DIR$/Admin/Feeds.php" />
+        <option value="$PROJECT_DIR$/Admin/Template/Styles/AdminStyle.css" />
+        <option value="$PROJECT_DIR$/Admin/FactorProducts.php" />
+        <option value="$PROJECT_DIR$/Admin/FactorProductsTable.php" />
+        <option value="$PROJECT_DIR$/Admin/LinkBoxes.php" />
+        <option value="$PROJECT_DIR$/UserProfile.php" />
+        <option value="$PROJECT_DIR$/Admin/DeleteConfirm.php" />
+        <option value="$PROJECT_DIR$/Internal Inserting/InsertFeed.php" />
+        <option value="$PROJECT_DIR$/Internal Inserting/Recovery.php" />
+        <option value="$PROJECT_DIR$/Template/top.php" />
+        <option value="$PROJECT_DIR$/Admin/operateGroup.php" />
+        <option value="$PROJECT_DIR$/Admin/operateSubGroup.php" />
+        <option value="$PROJECT_DIR$/Admin/AjaxProductAndProperties.php" />
+        <option value="$PROJECT_DIR$/Admin/InsertProduct.php" />
+        <option value="$PROJECT_DIR$/Admin/AjaxProductAndPropertiesLoad.php" />
+        <option value="$PROJECT_DIR$/Admin/AjaxInsertProductProperty.php" />
+        <option value="$PROJECT_DIR$/Template/menu.php" />
+        <option value="$PROJECT_DIR$/ClassesEx/datasource/SubMenuDataSource.inc" />
+        <option value="$PROJECT_DIR$/ClassesEx/datasource/PriceDataSource.inc" />
+        <option value="$PROJECT_DIR$/Admin/ShippingMethod.php" />
+        <option value="$PROJECT_DIR$/Admin/ShippingMethods.php" />
+        <option value="$PROJECT_DIR$/Admin/ChangePrices2.php" />
+        <option value="$PROJECT_DIR$/Configuration/connection.ini" />
+        <option value="$PROJECT_DIR$/ClassesEx/datasource/ProductDataSource.inc" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Template/bottom.php" />
+        <option value="$PROJECT_DIR$/Widgets/ProductTableRowDetailViewForAdmin.widget" />
+        <option value="$PROJECT_DIR$/Admin/AjaxLoadColor.php" />
+        <option value="$PROJECT_DIR$/Admin/Products.php" />
+        <option value="$PROJECT_DIR$/Post.php" />
+        <option value="$PROJECT_DIR$/Template/Styles/Style.css" />
+        <option value="$PROJECT_DIR$/Admin/ajaxSearch.php" />
+        <option value="$PROJECT_DIR$/Admin/AjaxUpdateEntry.php" />
+        <option value="$PROJECT_DIR$/Admin/multiSelect.php" />
+        <option value="$PROJECT_DIR$/Admin/ajaxPager.php" />
+        <option value="$PROJECT_DIR$/AjaxSearch/AjaxAdvancedSearch.php" />
+        <option value="$PROJECT_DIR$/Admin/RefreshSubgroups.php" />
+        <option value="$PROJECT_DIR$/Admin/Product.php" />
+        <option value="$PROJECT_DIR$/Products.php" />
+        <option value="$PROJECT_DIR$/Globals/Sessions.php" />
+        <option value="$PROJECT_DIR$/ClassesEx/datasource/FactorProductDataSource.inc" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="In-tableUpdate&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Admin/In-tableUpdate.php&#10;AjaxLogoChecks.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Admin/AjaxLogoChecks.php&#10;Group.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Admin/Group.php&#10;SubGroup.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Admin/SubGroups.php&#10;SupperGroup.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Admin/SupperGroups.php&#10;operateGroup.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Admin/operateGroup.php&#10;operateSubGroup.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Admin/operateSubGroup.php&#10;operateSupperGroup.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Admin/operateSupperGroup.php&#10;InsertProduct.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Admin/InsertProduct.php&#10;Role.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Admin/Role.php&#10;Product.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Admin/Product.php&#10;UpdateRole.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Admin/UpdateRole.php&#10;InsertRole.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Admin/InsertRole.php&#10;MenuDataSource.inc&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/ClassesEx/datasource/MenuDataSource.inc&#10;AjaxMenuLoading.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Template/AjaxMenuLoading.php&#10;ProductDataSource.inc&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/ClassesEx/datasource/ProductDataSource.inc&#10;products.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Products.php&#10;AjaxAdvancedSearch.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/AjaxSearch/AjaxAdvancedSearch.php&#10;FactorProductDataSource.inc&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/ClassesEx/datasource/FactorProductDataSource.inc&#10;userprofile.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/UserProfile.php&#10;BillInfo.php&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/Admin/BillInfo.php&#10;MenuTitleDataSource.inc&#9;FILE&#9;file://C:/xampp/htdocs/DigitalShopV2/ClassesEx/datasource/MenuTitleDataSource.inc&#10;SESSION_EARLY_CUSTOMER__ADDRESS_DATA&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\DigitalShopV2\Admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\DigitalShopV2\Admin" />
+      <recent name="C:\xampp\htdocs\DigitalShopV2\ClassesEx\datasource" />
+      <recent name="C:\xampp\htdocs\DigitalShopV2\ClassesEx\model" />
+      <recent name="C:\xampp\htdocs\DigitalShopV2" />
+      <recent name="C:\xampp\htdocs\DigitalShopV2\Template\Scripts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0a7af2d-b7ca-47e0-9f71-3ca09002080e" name="Default" comment="" />
+      <created>1513073624449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1513073624449</updated>
+      <workItem from="1513073625764" duration="683000" />
+      <workItem from="1513077633484" duration="1985000" />
+      <workItem from="1513234254660" duration="18014000" />
+      <workItem from="1513353718761" duration="566000" />
+      <workItem from="1513354342415" duration="825000" />
+      <workItem from="1513355899233" duration="122000" />
+      <workItem from="1513356060559" duration="1496000" />
+      <workItem from="1513358711211" duration="1596000" />
+      <workItem from="1513403453444" duration="47000" />
+      <workItem from="1513490015305" duration="1697000" />
+      <workItem from="1513713797402" duration="1294000" />
+      <workItem from="1513716811355" duration="1442000" />
+      <workItem from="1513751980912" duration="1871000" />
+      <workItem from="1514493696550" duration="963000" />
+      <workItem from="1514921917605" duration="509000" />
+      <workItem from="1514967957508" duration="910000" />
+      <workItem from="1515337169802" duration="3438000" />
+      <workItem from="1515353145850" duration="4303000" />
+      <workItem from="1515413624778" duration="8000" />
+      <workItem from="1515746097964" duration="14739000" />
+      <workItem from="1515770765763" duration="2000" />
+      <workItem from="1516179650103" duration="2426000" />
+      <workItem from="1516190922062" duration="1378000" />
+      <workItem from="1516192586651" duration="1715000" />
+      <workItem from="1516194752231" duration="105000" />
+      <workItem from="1516194872229" duration="27000" />
+      <workItem from="1516266374591" duration="1155000" />
+      <workItem from="1516272196047" duration="2766000" />
+      <workItem from="1516278878472" duration="23000" />
+      <workItem from="1516280931211" duration="156000" />
+      <workItem from="1516699966482" duration="1984000" />
+      <workItem from="1516705078243" duration="4852000" />
+      <workItem from="1516712358921" duration="948000" />
+      <workItem from="1516896755803" duration="1509000" />
+      <workItem from="1517128712863" duration="571000" />
+      <workItem from="1517145007474" duration="192000" />
+      <workItem from="1517220619230" duration="1819000" />
+      <workItem from="1517222788463" duration="3111000" />
+      <workItem from="1517230971688" duration="9000" />
+      <workItem from="1517472171015" duration="1297000" />
+      <workItem from="1517473482143" duration="7000" />
+      <workItem from="1517477557548" duration="195000" />
+      <workItem from="1517498524696" duration="77000" />
+      <workItem from="1517505330004" duration="2132000" />
+      <workItem from="1517507934610" duration="215000" />
+      <workItem from="1517508190168" duration="4653000" />
+      <workItem from="1517513222262" duration="1166000" />
+      <workItem from="1517568284360" duration="11000" />
+      <workItem from="1517593696983" duration="4098000" />
+      <workItem from="1517659941454" duration="971000" />
+      <workItem from="1517671330830" duration="131000" />
+      <workItem from="1517671890207" duration="50000" />
+      <workItem from="1517753655086" duration="7905000" />
+      <workItem from="1517822024959" duration="327000" />
+      <workItem from="1517826838330" duration="1320000" />
+      <workItem from="1517829719031" duration="30000" />
+      <workItem from="1517923330023" duration="18000" />
+      <workItem from="1517991668488" duration="1423000" />
+      <workItem from="1518093355480" duration="45000" />
+      <workItem from="1518095156449" duration="602000" />
+      <workItem from="1518095939000" duration="803000" />
+      <workItem from="1518097214012" duration="17000" />
+      <workItem from="1518098851830" duration="1403000" />
+      <workItem from="1519634547930" duration="275000" />
+      <workItem from="1519636288917" duration="36000" />
+      <workItem from="1519636784190" duration="30000" />
+      <workItem from="1519638757666" duration="95000" />
+      <workItem from="1519715336972" duration="733000" />
+      <workItem from="1519719849060" duration="40000" />
+      <workItem from="1519765203703" duration="2287000" />
+      <workItem from="1519821251925" duration="21000" />
+      <workItem from="1519821931970" duration="46000" />
+      <workItem from="1519826814023" duration="10747000" />
+      <workItem from="1519840187178" duration="2957000" />
+      <workItem from="1519843714525" duration="49000" />
+      <workItem from="1519846438544" duration="400000" />
+      <workItem from="1519851890400" duration="648000" />
+      <workItem from="1519917950927" duration="7041000" />
+      <workItem from="1519925609811" duration="779000" />
+      <workItem from="1519932421972" duration="10000" />
+      <workItem from="1519978622639" duration="3368000" />
+      <workItem from="1519982375451" duration="5000" />
+      <workItem from="1519983073168" duration="48000" />
+      <workItem from="1519984601661" duration="5828000" />
+      <workItem from="1519991248052" duration="444000" />
+      <workItem from="1519991959723" duration="640000" />
+      <workItem from="1519993346613" duration="2286000" />
+      <workItem from="1519997807393" duration="627000" />
+      <workItem from="1520005799712" duration="4000" />
+      <workItem from="1520005811462" duration="18000" />
+      <workItem from="1520006233269" duration="11000" />
+      <workItem from="1520106764312" duration="585000" />
+      <workItem from="1520403180767" duration="9000" />
+      <workItem from="1520507075324" duration="13821000" />
+      <workItem from="1520527309066" duration="511000" />
+      <workItem from="1520531434877" duration="567000" />
+      <workItem from="1520532285291" duration="9366000" />
+      <workItem from="1520580558857" duration="13619000" />
+      <workItem from="1520597354691" duration="5000" />
+      <workItem from="1520598382290" duration="4253000" />
+      <workItem from="1520679298047" duration="4087000" />
+      <workItem from="1520684105482" duration="1412000" />
+      <workItem from="1520690527446" duration="10291000" />
+      <workItem from="1520788891902" duration="74000" />
+      <workItem from="1520792632563" duration="48000" />
+      <workItem from="1520795202657" duration="96000" />
+      <workItem from="1520870821806" duration="412000" />
+      <workItem from="1520922722744" duration="10000" />
+      <workItem from="1521034294393" duration="599000" />
+      <workItem from="1521116157686" duration="139000" />
+      <workItem from="1521125610619" duration="774000" />
+      <workItem from="1521127757422" duration="330000" />
+      <workItem from="1521221614848" duration="33000" />
+      <workItem from="1521980145738" duration="34000" />
+      <workItem from="1521987119989" duration="39000" />
+      <workItem from="1521988147493" duration="20000" />
+      <workItem from="1521988289326" duration="23000" />
+      <workItem from="1521988394801" duration="17000" />
+      <workItem from="1521988517208" duration="35000" />
+      <workItem from="1521991925304" duration="43000" />
+      <workItem from="1521995083872" duration="38000" />
+      <workItem from="1522071251061" duration="470000" />
+      <workItem from="1522845793165" duration="498000" />
+      <workItem from="1522846588561" duration="11373000" />
+      <workItem from="1522866730157" duration="133000" />
+      <workItem from="1523266117762" duration="27000" />
+      <workItem from="1523358338429" duration="163000" />
+      <workItem from="1523359776216" duration="15000" />
+      <workItem from="1523362514351" duration="2425000" />
+      <workItem from="1523370659454" duration="681000" />
+      <workItem from="1523373535284" duration="34000" />
+      <workItem from="1523375478453" duration="642000" />
+      <workItem from="1523605102259" duration="1210000" />
+      <workItem from="1523621972000" duration="366000" />
+      <workItem from="1523630314825" duration="624000" />
+      <workItem from="1523775674603" duration="2510000" />
+      <workItem from="1523795632111" duration="2527000" />
+      <workItem from="1523798786206" duration="9373000" />
+      <workItem from="1523863206012" duration="234000" />
+      <workItem from="1523891942359" duration="515000" />
+      <workItem from="1523995582328" duration="2909000" />
+      <workItem from="1524035629290" duration="404000" />
+      <workItem from="1524038657379" duration="714000" />
+      <workItem from="1524075580397" duration="1143000" />
+      <workItem from="1524161569413" duration="133000" />
+      <workItem from="1524166983533" duration="1442000" />
+      <workItem from="1524204078305" duration="7945000" />
+      <workItem from="1524212645499" duration="1617000" />
+      <workItem from="1524239774981" duration="10908000" />
+      <workItem from="1524291427929" duration="11942000" />
+      <workItem from="1524303694735" duration="7126000" />
+      <workItem from="1524310860848" duration="2000" />
+      <workItem from="1524316237167" duration="3105000" />
+      <workItem from="1524322643290" duration="40000" />
+      <workItem from="1524402534179" duration="16356000" />
+      <workItem from="1524462638691" duration="6364000" />
+      <workItem from="1524471788712" duration="1999000" />
+      <workItem from="1524481129266" duration="2910000" />
+      <workItem from="1524490497006" duration="1803000" />
+      <workItem from="1524594004338" duration="1270000" />
+      <workItem from="1524652593553" duration="10457000" />
+      <workItem from="1524663536778" duration="2044000" />
+      <workItem from="1524829882781" duration="13719000" />
+      <workItem from="1524913317528" duration="12588000" />
+      <workItem from="1525009936062" duration="142000" />
+      <workItem from="1525010423768" duration="676000" />
+      <workItem from="1525013164489" duration="659000" />
+      <workItem from="1525089786892" duration="6586000" />
+      <workItem from="1525099828499" duration="112000" />
+      <workItem from="1525187355209" duration="2734000" />
+      <workItem from="1525190809461" duration="1147000" />
+      <workItem from="1525789498717" duration="2918000" />
+      <workItem from="1525857189148" duration="129000" />
+      <workItem from="1525868795024" duration="61000" />
+      <workItem from="1526972074434" duration="46000" />
+      <workItem from="1527229335498" duration="22367000" />
+      <workItem from="1527253509251" duration="11000" />
+      <workItem from="1527313582696" duration="117000" />
+      <workItem from="1527430993620" duration="313000" />
+      <workItem from="1527431460110" duration="2638000" />
+      <workItem from="1527705797194" duration="671000" />
+      <workItem from="1527708754352" duration="177000" />
+      <workItem from="1527708982655" duration="426000" />
+      <workItem from="1527877872984" duration="2803000" />
+      <workItem from="1527932170542" duration="19000" />
+      <workItem from="1527948749157" duration="55000" />
+      <workItem from="1528047749588" duration="721000" />
+      <workItem from="1528050659175" duration="26000" />
+      <workItem from="1528051368220" duration="2332000" />
+      <workItem from="1528381720758" duration="897000" />
+      <workItem from="1528395712821" duration="2647000" />
+      <workItem from="1528541055225" duration="205000" />
+      <workItem from="1528541517591" duration="994000" />
+      <workItem from="1528556943780" duration="82000" />
+      <workItem from="1528567030217" duration="302000" />
+      <workItem from="1528567985923" duration="1005000" />
+      <workItem from="1528608838016" duration="8861000" />
+      <workItem from="1528694306180" duration="665000" />
+      <workItem from="1529144281756" duration="948000" />
+      <workItem from="1529173777963" duration="1401000" />
+      <workItem from="1530277787054" duration="2122000" />
+      <workItem from="1530468873157" duration="66000" />
+      <workItem from="1531151943534" duration="731000" />
+      <workItem from="1531415493462" duration="2084000" />
+      <workItem from="1531484374235" duration="141000" />
+      <workItem from="1531542907963" duration="319000" />
+      <workItem from="1531555767184" duration="23000" />
+      <workItem from="1531629093835" duration="3684000" />
+      <workItem from="1531647011684" duration="2519000" />
+      <workItem from="1531650061009" duration="298000" />
+      <workItem from="1531652040168" duration="3438000" />
+      <workItem from="1531751225509" duration="3440000" />
+      <workItem from="1531808426488" duration="27000" />
+      <workItem from="1531824628857" duration="1551000" />
+      <workItem from="1531892639964" duration="908000" />
+      <workItem from="1544293599751" duration="617000" />
+      <workItem from="1547517627299" duration="28697000" />
+      <workItem from="1547777803332" duration="10143000" />
+      <workItem from="1548213541876" duration="1068000" />
+      <workItem from="1588840753352" duration="252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="491696000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12793177" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32913387" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="10" weight="0.32913387" />
+      <window_info anchor="right" id="Notes" order="0" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Admin/Stats.php</url>
+          <line>251</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Admin/UserCoupon.php</url>
+          <line>55</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Admin/Discount.php</url>
+          <line>53</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Admin/Menu.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Admin/AjaxUpdateEntry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="1789" selection-start-line="1789" selection-end-line="1789" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/ajaxSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1801" column="46" selection-start-line="1801" selection-start-column="12" selection-end-line="1801" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="880" selection-start-line="880" selection-end-line="880" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AjaxSearch/AjaxAdvancedSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="659" column="26" selection-start-line="659" selection-start-column="26" selection-end-line="659" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/RefreshSubgroups.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="13" column="22" lean-forward="true" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2669">
+          <caret line="235" column="20" lean-forward="true" selection-start-line="235" selection-start-column="20" selection-end-line="235" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Template/Scripts/flickity-docs.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/GroupDataSource.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="50" column="53" lean-forward="true" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/DiscountDataSource.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="180" column="39" lean-forward="true" selection-start-line="180" selection-start-column="39" selection-end-line="180" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/PriceDataSource.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="184" column="46" lean-forward="true" selection-start-line="184" selection-start-column="46" selection-end-line="184" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/ProductColorDataSource.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="130" column="17" lean-forward="true" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/OpinionDataSource.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="160" lean-forward="true" selection-start-line="144" selection-end-line="160" />
+          <folding>
+            <marker date="1511499059880" expanded="true" signature="484:685" ph="Insert Into opinions... " />
+            <marker date="1511499059880" expanded="true" signature="782:844" ph="Update opini... " />
+            <marker date="1511499059880" expanded="true" signature="944:1006" ph="Update opini... " />
+            <marker date="1511499059880" expanded="true" signature="1100:1138" ph="Delete From " />
+            <marker date="1511499059880" expanded="true" signature="1264:1303" ph="Select * Fro... opinions" />
+            <marker date="1511499059880" expanded="true" signature="1429:1465" ph="DELETE From " />
+            <marker date="1511499059880" expanded="true" signature="1584:1669" ph="Select * Fro... opinions" />
+            <marker date="1511499059880" expanded="true" signature="2415:2532" ph="Select * Fro... opinions" />
+            <marker date="1511499059880" expanded="true" signature="2870:2955" ph="Select * Fro... opinions" />
+            <marker date="1511499059880" expanded="true" signature="3784:3903" ph="Select * Fro... opinions" />
+            <marker date="1511499059880" expanded="true" signature="4720:4834" ph="Select * Fro... opinions" />
+            <marker date="1511499059880" expanded="true" signature="5196:5290" ph="Select * Fro... opinions" />
+            <marker date="1511499059880" expanded="true" signature="6101:6248" ph="Select * Fro... opinions" />
+            <marker date="1511499059880" expanded="true" signature="7063:7164" ph="Select * Fro... opinions" />
+            <marker date="1511499059880" expanded="true" signature="7980:8030" ph="Select Activ... opinions" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/LogoDataSource.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/ColorListDataSource.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="95" column="53" lean-forward="true" selection-start-line="95" selection-start-column="53" selection-end-line="95" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/ProductPropertyDataSource.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="126" column="51" lean-forward="true" selection-start-line="126" selection-start-column="51" selection-end-line="126" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/SubGroupDataSource.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="558" column="37" lean-forward="true" selection-start-line="558" selection-start-column="37" selection-end-line="558" selection-end-column="37" />
+          <folding>
+            <element signature="e#37907#37953#0#PHP" expanded="false" />
+            <element signature="e#42806#42859#0#HTML" expanded="false" />
+            <marker date="1547596140560" expanded="true" signature="27403:27442" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesEx/UI/WidgetBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="15" column="66" lean-forward="true" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Widgets/ProductThumbViewHomePage.widget">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Widgets/ProductThumbViewHomePageInstantPurchase.widget">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PaymentGate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4537">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Purchase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="653" column="111" selection-start-line="653" selection-start-column="111" selection-end-line="653" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Widgets/ProductThumb.widget">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="134" column="8" lean-forward="true" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PurchaseEmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117">
+          <folding>
+            <marker date="1527233824713" expanded="true" signature="489:1169" ph="..." />
+            <marker date="1527233824713" expanded="true" signature="496:535" ph="..." />
+            <marker date="1527233824713" expanded="false" signature="550:565" ph="..." />
+            <marker date="1527233824713" expanded="true" signature="566:1161" ph="..." />
+            <marker date="1527233824713" expanded="false" signature="580:656" ph="..." />
+            <marker date="1527233824713" expanded="false" signature="671:752" ph="..." />
+            <marker date="1527233824713" expanded="false" signature="829:935" ph="..." />
+            <marker date="1527233824713" expanded="false" signature="980:1079" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InsertPanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Compare.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Widgets/ProductThumbInstantPurchase.widget">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="23" lean-forward="true" selection-end-line="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AjaxCategoryLoad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="54" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UpdatePrice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VerifyPayment2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1524655423495" expanded="true" signature="3056:3334" ph="..." />
+            <marker date="1524655423495" expanded="true" signature="3063:3098" ph="..." />
+            <marker date="1524655423495" expanded="false" signature="3113:3128" ph="..." />
+            <marker date="1524655423495" expanded="true" signature="3129:3326" ph="..." />
+            <marker date="1524655423495" expanded="false" signature="3144:3251" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnsubscribeFeed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UpdateCompare.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <folding>
+            <marker date="1511263988795" expanded="true" signature="633:941" ph="..." />
+            <marker date="1511263988795" expanded="true" signature="640:675" ph="..." />
+            <marker date="1511263988795" expanded="false" signature="690:705" ph="..." />
+            <marker date="1511263988795" expanded="true" signature="706:933" ph="..." />
+            <marker date="1511263988795" expanded="false" signature="781:888" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1598">
+          <caret line="263" column="66" selection-start-line="263" selection-start-column="66" selection-end-line="263" selection-end-column="66" />
+          <folding>
+            <marker date="1523626288591" expanded="true" signature="10855:10894" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Answer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-321">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AddToCompare.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logoff.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DownloadPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/ProductDataSource.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="193" column="35" selection-start-line="181" selection-start-column="2" selection-end-line="220" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Globals/Sessions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/News.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5542">
+          <caret line="326" column="41" selection-start-line="326" selection-start-column="41" selection-end-line="326" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VerifyPayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Internal Inserting/RecoveryPass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/CustomerDataSource.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="141" column="29" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
+          <folding>
+            <marker date="1511327325721" expanded="true" signature="487:1040" ph="Insert Into customers... " />
+            <marker date="1511327325721" expanded="true" signature="1150:1710" ph="Update custo... " />
+            <marker date="1511327325721" expanded="true" signature="1857:1974" ph="Update custo... " />
+            <marker date="1511327325721" expanded="true" signature="2115:2187" ph="Update custo... " />
+            <marker date="1511327325721" expanded="true" signature="2334:2436" ph="Update custo... " />
+            <marker date="1511327325721" expanded="true" signature="2584:2688" ph="Update custo... " />
+            <marker date="1511327325721" expanded="true" signature="2812:2851" ph="Delete From " />
+            <marker date="1511327325721" expanded="true" signature="4249:4288" ph="Delete From " />
+            <marker date="1511327325721" expanded="true" signature="4408:4449" ph="Select * Fro... customers" />
+            <marker date="1511327325721" expanded="true" signature="5562:5610" ph="Select * Fro... customers" />
+            <marker date="1511327325721" expanded="true" signature="6813:6977" ph="Select * Fro... customers" />
+            <marker date="1511327325721" expanded="true" signature="7230:7284" ph="Select * Fro... customers" />
+            <marker date="1511327325721" expanded="true" signature="7531:7589" ph="Select * Fro... customers" />
+            <marker date="1511327325721" expanded="true" signature="7836:7884" ph="Select * Fro... customers" />
+            <marker date="1511327325721" expanded="true" signature="8153:8267" ph="Select * Fro... customers" />
+            <marker date="1511327325721" expanded="true" signature="9399:9468" ph="Select * Fro... customers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/OrderDataSource.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="141" column="26" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
+          <folding>
+            <marker date="1524661122566" expanded="true" signature="516:809" ph="Insert Into orders... " />
+            <marker date="1524661122566" expanded="true" signature="920:1253" ph="Update order... " />
+            <marker date="1524661122566" expanded="true" signature="1347:1382" ph="Delete From " />
+            <marker date="1524661122566" expanded="true" signature="1480:1511" ph="SELECT MIN(O... orders" />
+            <marker date="1524661122566" expanded="true" signature="1722:2290" ph="Select order... orders" />
+            <marker date="1524661122566" expanded="true" signature="3619:4214" ph="Select order... orders" />
+            <marker date="1524661122566" expanded="true" signature="5549:6133" ph="Select order... orders" />
+            <marker date="1524661122566" expanded="true" signature="7412:8005" ph="Select order... orders" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/FactorProductDataSource.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8364">
+          <caret line="483" column="20" selection-start-line="483" selection-start-column="20" selection-end-line="483" selection-end-column="20" />
+          <folding>
+            <marker date="1521279046974" expanded="true" signature="553:1349" ph="Insert Into factorproducts... " />
+            <marker date="1521279046974" expanded="true" signature="1469:2136" ph="Update facto... " />
+            <marker date="1521279046974" expanded="true" signature="2252:2336" ph="Update facto... " />
+            <marker date="1521279046974" expanded="true" signature="2485:2619" ph="Update facto... " />
+            <marker date="1521279046974" expanded="true" signature="2730:2809" ph="Update facto... " />
+            <marker date="1521279046974" expanded="true" signature="2939:3094" ph="Update facto... " />
+            <marker date="1521279046974" expanded="true" signature="3191:3262" ph="Update facto... " />
+            <marker date="1521279046974" expanded="true" signature="3354:3425" ph="Update facto... " />
+            <marker date="1521279046974" expanded="true" signature="3520:3591" ph="Update facto... " />
+            <marker date="1521279046974" expanded="true" signature="3687:3758" ph="Update facto... " />
+            <marker date="1521279046974" expanded="true" signature="3852:3902" ph="Delete From " />
+            <marker date="1521279046974" expanded="true" signature="4028:4158" ph="Select facto... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="4271:4318" ph="Select * fro... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="4653:5759" ph="Select facto... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="7862:9011" ph="Select facto... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="10525:11744" ph="Select facto... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="14192:14322" ph="Select facto... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="14659:14828" ph="Select IFNUL... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="15041:15174" ph="Select IFNUL... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="15401:15575" ph="Select IFNUL... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="15785:16940" ph="Select facto... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="19397:20630" ph="Select facto... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="21790:23004" ph="Select facto... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="24172:25361" ph="Select facto... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="26530:27716" ph="Select facto... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="28880:30120" ph="Select facto... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="32803:33952" ph="Select facto... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="36152:37262" ph="Select facto... factorproducts" />
+            <marker date="1521279046974" expanded="true" signature="39448:39560" ph="Select Statu... factorproducts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassesEx/datasource/NewsDataSource.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3485">
+          <caret line="205" column="31" selection-start-line="205" selection-start-column="31" selection-end-line="205" selection-end-column="31" />
+          <folding>
+            <marker date="1509744175630" expanded="true" signature="473:797" ph="Insert Into news... " />
+            <marker date="1509744175630" expanded="true" signature="899:1220" ph="Update news " />
+            <marker date="1509744175630" expanded="true" signature="1314:1347" ph="Delete From " />
+            <marker date="1509744175630" expanded="true" signature="1462:1531" ph="Select * Fro... news" />
+            <marker date="1509744175630" expanded="true" signature="2571:2646" ph="Select * Fro... news" />
+            <marker date="1509744175630" expanded="true" signature="3541:3639" ph="Select * Fro... news" />
+            <marker date="1509744175630" expanded="true" signature="4086:4186" ph="Select * Fro... news" />
+            <marker date="1509744175630" expanded="true" signature="5066:5158" ph="Select * Fro... news" />
+            <marker date="1509744175630" expanded="true" signature="6040:6139" ph="Select * Fro... news" />
+            <marker date="1509744175630" expanded="true" signature="6376:6476" ph="Select * Fro... news" />
+            <marker date="1509744175630" expanded="true" signature="6688:6806" ph="Select NewsI... " />
+            <marker date="1509744175630" expanded="true" signature="7331:7610" ph="Select * Fro... news" />
+            <marker date="1509744175630" expanded="true" signature="8497:8791" ph="Select * Fro... news" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserProfile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="127" column="40" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
+          <folding>
+            <marker date="1527252644169" expanded="true" signature="8099:8113" ph="..." />
+            <marker date="1527252644169" expanded="true" signature="8269:8283" ph="..." />
+            <marker date="1527252644169" expanded="true" signature="10712:10786" ph="..." />
+            <marker date="1527252644169" expanded="true" signature="10825:10856" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

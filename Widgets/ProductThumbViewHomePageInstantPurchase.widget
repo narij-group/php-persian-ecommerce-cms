@@ -1,0 +1,156 @@
+<?php
+
+require_once __DIR__ . DIRECTORY_SEPARATOR . '../ClassesEx/datasource/DiscountDataSource.inc';
+require_once __DIR__ . DIRECTORY_SEPARATOR . '../ClassesEx/datasource/PriceDataSource.inc';
+
+$p = unserialize($_GET['PRODUCT']);
+$tax = $_GET['TAX'];
+
+$discount = new DiscountDataSource();
+$discount->open();
+$price = new PriceDataSource();
+$price->open();
+
+$last_discount = $discount->GetLastDiscountForOneProduct($p->ProductId);
+$last_price = $price->GetLastPriceForOneProduct($p->ProductId);
+
+$discount->close();
+$price->close();
+
+
+require_once __DIR__ . DIRECTORY_SEPARATOR . '../ClassesEx/datasource/ProductColorDataSource.inc';
+$pcds = new ProductColorDataSource();
+$pcds->open();
+$pcs = $pcds->FindAllColorsOfOneProduct($p->ProductId);
+$quantity = 0;
+foreach ($pcs as $pc) {
+    $quantity += $pc->Quantity;
+}
+//echo $quantity;
+$pcds->close();
+
+
+?>
+<!--<a href="Post.php?id=--><?php //echo $p->ProductId; ?><!--" title="">-->
+<span>
+                        <div class="item">
+                                    <?php
+                                    if ($quantity > 0) {
+                                        ?>
+                                        <div class="purchase-box2" id="purchase-box2">
+        <div class="price-box" id="price-box">
+            <?php
+            if ($last_price != 0) {
+                ?>
+                <span class="title-price">قیمت کل :</span>
+                <input type="button"
+                       id="total_price"
+                       value="<?php echo number_format(($last_price - ($last_price * $last_discount / 100)) * $tax); ?>"
+                       class="total_price"/><span>تومان</span>
+                <input type="hidden"
+                       id="real_price"
+                       value="<?php echo number_format(($last_price - ($last_price * $last_discount / 100)) * $tax); ?>"/>
+                <input type="hidden"
+                       id="max_count" value="<?php echo $quantity; ?>"/>
+
+                <?php
+            } else {
+                ?>
+                <span class="title-price">رایگان</span>
+                <?php
+            }
+            ?>
+        </div>
+        <label>به سبد خرید من</label>
+        <div class="count-box" id="count-box">
+            <input type="button" class="btn-up" id="btn-up"/>
+            <input readonly type="text" class="txtcount" id="txtcount" value="1"/>
+            <input type="button" class="btn-down" id="btn-down"/>
+        </div>
+        <label>واحد از این محصول اضافه شد</label>
+        <div class="button-box">
+            <input type="button" class="btn-ok" id="<?php echo $p->ProductId; ?>" value="تایید"/>
+            <input type="button" class="btn-cancle" id="btn-cancle" value="انصراف"/>
+        </div>
+        </div>
+
+                                        <?php
+                                    }
+                                    ?>
+                            <div class="top">
+                                                                <?php
+                                                                if ($p->Stock == 1) {
+                                                                ?>
+                                <a href="Post.php?id=<?php echo $p->ProductId; ?>">
+                                <?php
+                                echo '<span class="stock">';
+                                echo "دست دوم";
+                                echo '</span></a>';
+
+                                }
+                                ?>
+                                <?php
+                                if ($last_price != $last_price - ($last_price * $last_discount / 100)) {
+                                    echo '<span class="discount">';
+                                    echo $last_discount;
+                                    echo '%</span>';
+
+                                }
+                                ?>
+
+                            </div>
+                            <div class="image">
+                            <a href="Post.php?id=<?php echo $p->ProductId; ?>" title=""><img
+                                        src="Template/Images/image-load.gif"
+                                        data-src="<?php echo $p->Image; ?>" alt=""
+                                        title=""/></a>
+                            </div>
+                            <a href="Post.php?id=<?php echo $p->ProductId; ?>" title="">
+
+                                <div class="name"><?php echo $p->Name; ?></div>
+                            </a>
+                            <div class="bottom">
+                                <?php
+                                if ($quantity > 0) {
+                                    ?>
+                                    <div class="buy" id="<?php echo $p->ProductId; ?>">
+                                    <button><span class="fa fa-plus"></span></button>
+                                </div>
+                                    <?php
+                                }
+                                ?>
+                                <div class="product-price">
+                                    <?php
+                                    if ($last_price != $last_price - ($last_price * $last_discount / 100)) {
+                                        ?>
+                                        <span class="price1-1"><?php echo number_format(($last_price - ($last_price * $last_discount / 100)) * $tax); ?>
+                                            تومان</span>
+                                        <?php
+
+                                        echo '<span class="price2-1">';
+                                        echo number_format($last_price * $tax);
+                                        echo "تومان";
+                                        echo '</span>';
+                                    } else {
+                                        If ($last_price != 0) {
+                                            ?>
+                                            <span class="price1"><?php echo number_format($last_price * $tax); ?>
+                                                تومان</span>
+                                            <?php
+                                        }else {
+                                            ?>
+                                            <span class="price1-2">رایگان
+                                            </span>
+                                            <?php
+                                        }
+
+                                        echo '<span class="price2">';
+                                        echo "بدون تخفیف";
+                                        echo '</span>';
+                                    }
+                                    ?>
+                                </div>
+                            </div>
+                        </div>
+</span>
+<!--</a>-->

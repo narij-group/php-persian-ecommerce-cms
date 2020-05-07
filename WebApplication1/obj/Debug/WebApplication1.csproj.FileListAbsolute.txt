@@ -1,0 +1,5 @@
+C:\Users\Novin\Documents\Visual Studio 2015\Projects\DigitalStore[2016-01-20]\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Novin\Documents\Visual Studio 2015\Projects\DigitalStore[2016-01-20]\WebApplication1\bin\WebApplication1.dll
+C:\Users\Novin\Documents\Visual Studio 2015\Projects\DigitalStore[2016-01-20]\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Novin\Documents\Visual Studio 2015\Projects\DigitalStore[2016-01-20]\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Novin\Documents\Visual Studio 2015\Projects\DigitalStore[2016-01-20]\WebApplication1\obj\Debug\WebApplication1.pdb

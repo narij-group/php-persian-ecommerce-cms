@@ -1,0 +1,155 @@
+<?php
+
+require_once __DIR__ . DIRECTORY_SEPARATOR . '../ClassesEx/datasource/ProductDataSource.inc';
+require_once __DIR__ . DIRECTORY_SEPARATOR . '../ClassesEx/datasource/OpinionDataSource.inc';
+require_once __DIR__ . DIRECTORY_SEPARATOR . '../ClassesEx/datasource/ProductColorDataSource.inc';
+require_once __DIR__ . DIRECTORY_SEPARATOR . '../ClassesEx/datasource/ProductAndPropertyDataSource.inc';
+require_once __DIR__ . DIRECTORY_SEPARATOR . '../ClassesEx/datasource/ProductCouponDataSource.inc';
+
+$p1 = unserialize($_GET['PRODUCT']);
+$tax = $_GET['TAX'];
+
+$discount = new DiscountDataSource();
+$discount->open();
+$last_discount = $discount->GetLastDiscountForOneProduct($p1->ProductId);
+$discount->close();
+$price = new PriceDataSource();
+$price->open();
+$last_price = $price->GetLastPriceForOneProduct($p1->ProductId);
+$price->close();
+
+
+$pcds = new ProductColorDataSource();
+$pcds->open();
+$pcs = $pcds->FindAllColorsOfOneProduct($p1->ProductId);
+$quantity = 0;
+foreach ($pcs as $pc) {
+    $quantity += $pc->Quantity;
+}
+//echo $quantity;
+$pcds->close();
+
+
+$opinion = new OpinionDataSource();
+$opinion->open();
+?>
+    <div class="col-lg-4 col-md-6 col-sm-4" style="position: relative">
+    <div class="TD">
+<?php
+if ($last_price != $last_price - ($last_price * $last_discount / 100)) {
+    ?>
+    <span class="discount-ballon2">
+        <?php
+        echo $last_discount;
+        ?>
+        %</span>
+    <?php
+}
+?>
+    <div class="product-image2">
+        <a href='Post.php?id=<?php echo $p1->ProductId; ?>'><img src='Template/Images/image-load.gif'
+                                                                 data-src='<?php echo $p1->Image; ?>' alt=''/><a/>
+    </div>
+    <span class="rate-score"><?php echo $opinion->GetRateForProduct($p1->ProductId); ?></span>
+    <select id="rate<?php echo $p1->ProductId; ?>">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <script src="Template/Rating/dist/jquery.barrating.min.js"
+            type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#rate<?php echo $p1->ProductId; ?>').barrating({
+                theme: 'fontawesome-stars',
+                readonly: true
+            });
+            $('#rate<?php echo $p1->ProductId; ?>').barrating('set', <?php echo floor($opinion->GetRateForProduct($p1->ProductId)); ?>);
+        });
+
+        //        $(document).ready(function () {
+        //            $('[id^=buy]').click(function () {
+        //
+        //                alert($(this).attr('id'));
+        //
+        //            });
+        //        });
+
+
+    </script>
+
+    <a href='Post.php?id=<?php echo $p1->ProductId; ?>'>
+        <div class='product-name2'>
+            <?php
+            echo $p1->Name;
+            ?>
+        </div>
+    </a>
+    <a href='Post.php?id=<?php echo $p1->ProductId; ?>'>
+        <div class='product-name3'>
+            <?php
+            echo $p1->LatinName;
+            ?>
+        </div>
+    </a>
+    <div class='product-price2'>
+<?php
+if ($last_price != $last_price - ($last_price * $last_discount / 100)) {
+    ?>
+    <div class="orginal-price2"><?php echo number_format($last_price * $tax); ?>
+        تومان
+    </div>
+    <?php
+} else {
+    echo "<br/>";
+}
+if ($last_price != 0) {
+    echo number_format(($last_price - ($last_price * $last_discount / 100)) * $tax);
+    echo " تومان";
+} else {
+    echo "رایگان";
+}
+
+echo "</div>";
+?>
+    <div class="product-compare-btn"><a href="#" class="compare-btn-link"
+                                        id="<?php echo $p1->ProductId; ?>">مقایسه</a>
+    </div>
+<?php
+if ($p1->Stock == 1) {
+    ?>
+    <a href="Post.php?id=<?php echo $p1->ProductId; ?>">
+    <?php
+    echo '<span class = "product-stock">';
+    echo '<span>';
+    echo "دست دوم";
+    echo '</span></a>';
+}
+
+if ($p1->User->Username > 0) {
+    echo "<div class = 'product-status-e'>";
+    echo '<span>موجود</span>';
+    echo '<img src = "Template/Images/Plugins/checked.png" alt = "" title = "" />';
+} else {
+    echo "<div class = 'product-status-n'>";
+    echo '<span>ناموجود</span>';
+    echo '<img src = "Template/Images/Plugins/not-checked.png" alt = "" title = "" />';
+}
+echo "</div>";
+?>
+    <!--    <div id="buy--><?php //echo $p1->ProductId; ?><!--" class='product-view-btn'><a href="#">-->
+    <!--            خرید-->
+    <!--        </a>-->
+    <!--    </div>-->
+
+
+<?php
+//echo " < div class = 'product-compare-btn' ><a > مقایسه</a ></div > ";
+echo '</div>';
+echo '</div>';
+
+
+$opinion->close();
+

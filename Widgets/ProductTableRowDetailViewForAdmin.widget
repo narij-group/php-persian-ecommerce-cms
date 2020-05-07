@@ -1,0 +1,186 @@
+<?php
+
+
+require_once __DIR__ . DIRECTORY_SEPARATOR . '../ClassesEx/datasource/ProtocolDataSource.inc';
+require_once __DIR__ . DIRECTORY_SEPARATOR . '../ClassesEx/datasource/GuaranteeDataSource.inc';
+require_once __DIR__ . DIRECTORY_SEPARATOR . '../ClassesEx/datasource/ProductColorDataSource.inc';
+require_once __DIR__ . DIRECTORY_SEPARATOR . '../ClassesEx/datasource/StatDataSource.inc';
+require_once __DIR__ . DIRECTORY_SEPARATOR . '../ClassesEx/datasource/SpecialOfferTitleDataSource.inc';
+
+
+$p = unserialize($_GET['PRODUCT']);
+$role = unserialize($_GET['ROLE']);
+
+
+$price = new Price();
+//                                    $menu = new Menu();
+$prds = new ProtocolDataSource();
+$prds->open();
+$pprotocol = $prds->GetProtocolsForOneProduct($p->ProductId);
+$prds->close();
+
+
+$grds = new GuaranteeDataSource();
+$grds->open();
+$pguarantee = $grds->GetGuaranteesForOneProduct($p->ProductId);
+$grds->close();
+
+$pcds = new ProductColorDataSource();
+$pcds->open();
+$ppcolor = $pcds->GetProductColorsForOneProduct($p->ProductId);
+$pcds->close();
+
+$stds = new StatDataSource();
+$stds->open();
+$stats = $stds->GetStatsCountForOneProduct($p->ProductId);
+$stds->close();
+
+$sotds = new SpecialOfferTitleDataSource();
+$sotds->open();
+$specialoffer = $sotds->IsSpecialOfferByProduct($p->ProductId);
+$sotds->close();
+
+if (substr($p->Image, 0, 1) == "/") {
+    $imgsrc = $p->Image;
+} elseif ($p->Image != "") {
+    $imgsrc = "/" . $p->Image;
+} else {
+    $imgsrc = "";
+}
+
+//                                    $pmenu = $menu->GetMenusForOneProduct($p->ProductId);
+
+echo "<tr>";
+echo "<td><div class='DatabaseField' >";
+echo "<div class='new-status'>";
+if ($p->Activated == 1) {
+//    echo "<img title='فعال' src = 'Template/Images/checked.png' />";
+    echo "<i title='فعال' class='fa fa-check text-navy'></i>";
+} else {
+//    echo "<img title='غیرفعال' src = 'Template/Images/not-checked.png' />";
+    echo "<i title='غیرفعال' class='fa fa-remove text-danger'></i>";
+}
+echo '</div>';
+echo "" . $p->ProductId . "<div class='checkbox checkbox-info checkbox-circle'><input type='checkbox'  value='" . $p->ProductId . "' id='check" . $p->ProductId . "' ";
+echo " name='check_list[]' class='acheck' /><label for='check" . $p->ProductId . "'></label></div>";
+echo "</div></td>";
+echo "<td><img src='$imgsrc' alt='' class='img-table' /></td>";
+
+echo "<td><div class='DatabaseField LineHeight' >";
+echo '<div class="product-title"><b>';
+if (strlen($p->Name) > 55) {
+    $str = substr($p->Name, 0, 55) . '...';
+    echo $str;
+} else {
+    echo $p->Name;
+}
+echo "</b></div>";
+echo '<div class="product-title">';
+if (strlen($p->LatinName) > 45) {
+    $str = substr($p->LatinName, 0, 45) . '...';
+    echo $str;
+} else {
+    echo $p->LatinName;
+}
+echo "</div>";
+echo "</div></td>";
+echo "<td><div class='DatabaseField quantity' id='quantity" . $p->ProductId . "' data-toggle='modal' data-target='#quantityModal'>";
+if ($p->User->Username != 0) {
+    echo $p->User->Username . " عدد";
+} else {
+    echo 'هیچی';
+}
+echo "</div></td>";
+
+echo "<td>" . $stats . "</td>";
+
+echo "<td><div class='DatabaseField options-container' >";
+echo '<div class="product-meta ';
+if (strlen($p->MetaDescription) / 1.5 < 80) {
+    echo 'meta-red';
+} elseif (strlen($p->MetaDescription) / 1.5 > 79 && strlen($p->MetaDescription) / 1.5 < 135) {
+    echo 'meta-yellow';
+} elseif (strlen($p->MetaDescription) / 1.5 > 134 && strlen($p->MetaDescription) / 1.5 < 166) {
+    echo 'meta-green';
+} else {
+
+}
+echo '" title="وضعیت متا (توضیحات متا)">';
+echo "</div>";
+echo '<span class="product-group2 label label-warning" title="دسته بندی">';
+$grouplname = explode(" ", $p->SubGroup->LatinName);
+$subgrouplname = explode(" ", $p->SupperGroup->LatinName);
+if (count($grouplname) > 2) {
+    echo $grouplname[0] . '...';
+} else {
+    echo $p->SubGroup->LatinName;
+}
+echo " > ";
+if (count($subgrouplname) > 2) {
+    echo $subgrouplname[0] . '...';
+} else {
+    echo $p->SupperGroup->LatinName;
+}
+echo "</span>";
+echo '<button class="product-price btn btn-primary " data-toggle="modal" data-target="#priceModal" type="button" id="price' . $p->ProductId . '" title="قیمت محصول">';
+echo number_format($p->User->Family) . " تومان";
+echo "</button>";
+echo "</br>";
+echo '<span class="product-group label label-info" title="دسته بندی">';
+$groupname = explode(" ", $p->SubGroup->Name);
+$subgroupname = explode(" ", $p->SupperGroup->Name);
+if (count($groupname) > 2) {
+    echo $groupname[0] . ' ' . $groupname[1] . '...';
+} else {
+    echo $p->SubGroup->Name;
+}
+echo " > ";
+if (count($subgroupname) > 2) {
+    echo $subgroupname[0] . '...';
+} else {
+    echo $p->SupperGroup->Name;
+}
+echo "</span>";
+if ($p->User->Name != 0) {
+    echo '<span class="product-discount label label-danger" title="تخفیف">';
+    echo number_format($p->User->Name) . "%";
+    echo "</span>";
+}
+if ($specialoffer == 1) {
+    echo '<span class="product-specialoffer label label-primary" title="پیشنهاد ویژه">';
+    echo '<i class="fa fa-diamond" style="font-size: 14px;line-height: 17px"></i>';
+    echo "</span>";
+}
+$word = explode(",", $p->Keywords);
+$words = 0;
+foreach ($word as $w) {
+    $words++;
+}
+echo '<div class="product-meta ';
+if ($words < 5) {
+    echo 'meta-red';
+} elseif ($words >= 5 && $words < 15) {
+    echo 'meta-yellow';
+} else {
+    echo 'meta-green';
+}
+echo '" title="وضعیت متا (کلمات کلیدی)">';
+echo "</div>";
+if ($p->User->UserId != 0) {
+    echo '<span class="product-coupon label label-primary" title="کپن دریافتی برای خرید محصول">';
+    echo number_format($p->User->UserId) . " کپن";
+    echo "</span>";
+}
+echo "</div></td>";
+echo "<td><div class='btn-group'><button class='product-id3 btn-white btn btn-xs m-md' data-toggle='modal' data-target='#productModal' type='button' title='More Information' value='" . $p->ProductId . "'>اطلاعات</button>";
+echo "<button class='btn-white btn btn-xs m-md' title='View'><a target='_blank' href='../Post.php?id=$p->ProductId'>" . "نمایش" . "</a></button>";
+
+if ($role->EditProduct == 1) {
+    echo "<button class='btn-white btn btn-xs m-md' title='Edit'><a href='Product.php?id=" . $p->ProductId . "'>" . "ویرایش" . "</a></button>";
+}
+if ($role->DeleteProduct == 1) {
+    echo "<button class='btn-white btn btn-xs m-md' title='Delete'><a onclick='return deleteConfirm()' href='DeleteProduct.php?id=" . $p->ProductId . "'>" . "حذف" . "</a></button>";
+}
+echo '</div></td>';
+echo "</tr>";
+

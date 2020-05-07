@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7222FA81-F9A8-4514-958B-CC36E024D2DD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fonts\IRANSans-Light.svg" />
+    <Content Include="Images\Photo\18.jpg" />
+    <Content Include="Images\Photo\20150419-103104-9412461-20150418-121707-3002674-4067lhk5.jpg" />
+    <Content Include="Images\Photo\20150420-131054-249367-Logo.jpg" />
+    <Content Include="Images\Photo\20150420-155226-1251899-sonyx940c1.jpg" />
+    <Content Include="Images\Photo\20150421-125351-3273239-Logo.jpg" />
+    <Content Include="Images\Photo\27-1.jpg" />
+    <Content Include="Images\Photo\527279.jpg" />
+    <Content Include="Images\Photo\67bfb076-98ea-4f96-809a-d29e9e42d81f.jpg" />
+    <Content Include="Images\Photo\a59451.jpg" />
+    <Content Include="Images\Photo\Apple_iPhone6_Plus_vs_Samsung_Galaxy_Note_4.jpg" />
+    <Content Include="Images\Photo\AV-AC-Bravo_HDMI-BravoCast-Dungle18d247.jpg" />
+    <Content Include="Images\Photo\Bravee.jpg" />
+    <Content Include="Images\Photo\Computer-HDD-WD-My-Passport-Ultra-1TB1a021a.jpg" />
+    <Content Include="Images\Photo\dc9d01.jpg" />
+    <Content Include="Images\Photo\group-product-01.jpg" />
+    <Content Include="Images\Photo\group-product-02.jpg" />
+    <Content Include="Images\Photo\group-product-03.jpg" />
+    <Content Include="Images\Photo\group-product-04.jpg" />
+    <Content Include="Images\Photo\group-product-05.jpg" />
+    <Content Include="Images\Photo\group-product-06.jpg" />
+    <Content Include="Images\Photo\group-product-07.jpg" />
+    <Content Include="Images\Photo\group-product-08.jpg" />
+    <Content Include="Images\Photo\haha.jpg" />
+    <Content Include="Images\Photo\hahoo.jpg" />
+    <Content Include="Images\Photo\han.jpg" />
+    <Content Include="Images\Photo\LG_G_Pad_7_and_10_Review.jpg" />
+    <Content Include="Images\Photo\Mobile-Huawei-Ascend-G67b992b8.jpg" />
+    <Content Include="Images\Photo\Mobile-LG-G-3-mini-Dual-SIM-D72450e08a.jpg" />
+    <Content Include="Images\Photo\Mobile-LG-G3-32GB765e65.jpg" />
+    <Content Include="Images\Photo\Mobile-Phone-Apple-iPhone-6-64GB7cbebe.jpg" />
+    <Content Include="Images\Photo\Mobile-Phone-Samsung-Galaxy-Core-Prime-Duosc886a5.jpg" />
+    <Content Include="Images\Photo\Mobile-Samsung-Galaxy-S-65f1d6d.jpg" />
+    <Content Include="Images\Photo\Mobile-Sony-Xperia-Z3-Dual-SIM24e925.jpg" />
+    <Content Include="Images\Photo\mobile.png" />
+    <Content Include="Images\Photo\play-icon.png" />
+    <Content Include="Images\Photo\Samsung_Galaxy_S6_Edge_First_Look.jpg" />
+    <Content Include="Images\Photo\Steve_Jobs_2005_Stanford_Commencement_Address.jpg" />
+    <Content Include="Images\Photo\tablet-ebook-reader.png" />
+    <Content Include="Images\Photo\Universal-LQ-001-3-In-1-Clip-Lens94ca5c.jpg" />
+    <Content Include="Images\Photo\Yunteng-YT-1288-Monopod-With Zoom Remote5eeff0.jpg" />
+    <Content Include="Images\Plugins\AjaxLoader.gif" />
+    <Content Include="Images\Plugins\arrow-left.png" />
+    <Content Include="Images\Plugins\caret-bottom.png" />
+    <Content Include="Images\Plugins\caret-left.png" />
+    <Content Include="Images\Plugins\caret-top.png" />
+    <Content Include="Images\Plugins\check-mark-18x16.png" />
+    <Content Include="Images\Plugins\comment-box-icon-24x24.png" />
+    <Content Include="Images\Plugins\dislike.png" />
+    <Content Include="Images\Plugins\error-16x15.png" />
+    <Content Include="Images\Plugins\eye.png" />
+    <Content Include="Images\Plugins\glyphicons-halflings-green.png" />
+    <Content Include="Images\Plugins\glyphicons-halflings-white.png" />
+    <Content Include="Images\Plugins\glyphicons-halflings.png" />
+    <Content Include="Images\Plugins\grabbing.png" />
+    <Content Include="Images\Plugins\group.png" />
+    <Content Include="Images\Plugins\icoProductTick.png" />
+    <Content Include="Images\Plugins\like.png" />
+    <Content Include="Images\Plugins\online_store_ico_16x16.png" />
+    <Content Include="Images\Plugins\online_store_ico_32x32.png" />
+    <Content Include="Images\Plugins\online_store_ico_48x48.png" />
+    <Content Include="Images\Plugins\orderCount.png" />
+    <Content Include="Images\Plugins\png.png" />
+    <Content Include="Images\Plugins\Question_Mark-24x24.png" />
+    <Content Include="Images\Plugins\search.png" />
+    <Content Include="Images\Plugins\shop-24x24.png" />
+    <Content Include="Images\Plugins\shoppingCart.png" />
+    <Content Include="Images\Plugins\slice.png" />
+    <Content Include="index.html" />
+    <Content Include="product.html" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\HoverIntent.min.js" />
+    <Content Include="Scripts\html5.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery.1.11.2.min.js" />
+    <Content Include="Scripts\owl.carousel.min.js" />
+    <Content Include="Scripts\scrolltofixed.min.js" />
+    <Content Include="Styles\Bootstrap.min.css" />
+    <Content Include="Styles\owl.carousel.css" />
+    <Content Include="Styles\owl.theme.css" />
+    <Content Include="Styles\Style.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Fonts\IRANSans-Light.eot" />
+    <Content Include="Fonts\IRANSans-Light.ttf" />
+    <Content Include="Fonts\IRANSans-Light.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>48815</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48815/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
